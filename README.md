@@ -1,2 +1,3 @@
-# Coursera_ML_AndrewNg
+# Coursera - Machine Learning by Andrew Ng
+
 https://www.coursera.org/learn/machine-learning/
