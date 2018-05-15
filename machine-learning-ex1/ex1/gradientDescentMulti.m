@@ -17,15 +17,11 @@ for iter = 1:num_iters
     %       of the cost function (computeCostMulti) and gradient here.
     %
 
-
-
-
-
-
-
-
-
-
+    hX = X * theta;
+    
+    v_erro = (hX - y);
+    
+    theta = theta - alpha * (X' * v_erro) / m; % Multiplicação de vetor já soma o produto.
 
     % ============================================================
 
