@@ -16,13 +16,13 @@ for iter = 1:num_iters
     % Hint: While debugging, it can be useful to print out the values
     %       of the cost function (computeCost) and gradient here.
     %
-
-
-
-
-
-
-
+    
+    hX = X * theta;
+    
+    v_erro = (hX - y);
+    
+    theta = theta - alpha * (X' * v_erro) / m; % Multiplicação de vetor já soma o produto.
+    
     % ============================================================
 
     % Save the cost J in every iteration    
